@@ -14,7 +14,7 @@ class Station
     @@all_station
   end
 
-  # Имеет название, которое указывается при ее создании
+  # Имеет название, которое указывается при ее создании.
   def initialize(name)
     @name = name
     validate!
