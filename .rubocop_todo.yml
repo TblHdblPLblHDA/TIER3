@@ -168,19 +168,7 @@ Style/CommentedKeyword:
 # Offense count: 11
 Style/Documentation:
   Exclude:
-    - 'spec/**/*'
-    - 'test/**/*'
-    - 'popka/TIER3/cargo_train.rb'
-    - 'popka/TIER3/instance_counter.rb'
-    - 'popka/TIER3/interface.rb'
-    - 'popka/TIER3/manufacturer.rb'
-    - 'popka/TIER3/passenger_train.rb'
-    - 'popka/TIER3/railway_wagon.rb'
-    - 'popka/TIER3/railway_wagon_cargo.rb'
-    - 'popka/TIER3/railway_wagon_passenger.rb'
-    - 'popka/TIER3/route.rb'
-    - 'popka/TIER3/station.rb'
-    - 'popka/TIER3/train.rb'
+   Enabled: false
 
 # Offense count: 12
 # Cop supports --auto-correct.
@@ -188,18 +176,7 @@ Style/Documentation:
 # SupportedStyles: always, always_true, never
 Style/FrozenStringLiteralComment:
   Exclude:
-    - 'popka/TIER3/cargo_train.rb'
-    - 'popka/TIER3/instance_counter.rb'
-    - 'popka/TIER3/interface.rb'
-    - 'popka/TIER3/main.rb'
-    - 'popka/TIER3/manufacturer.rb'
-    - 'popka/TIER3/passenger_train.rb'
-    - 'popka/TIER3/railway_wagon.rb'
-    - 'popka/TIER3/railway_wagon_cargo.rb'
-    - 'popka/TIER3/railway_wagon_passenger.rb'
-    - 'popka/TIER3/route.rb'
-    - 'popka/TIER3/station.rb'
-    - 'popka/TIER3/train.rb'
+    Enabled: false
 
 # Offense count: 2
 # Cop supports --auto-correct.

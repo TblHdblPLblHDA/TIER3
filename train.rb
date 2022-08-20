@@ -6,15 +6,15 @@ class Train
   include InstanceCounter
   attr_reader :number, :type, :number_of_wagons
   
-  NUMBER_FORMAT = /^[a-z|\d]{3}-*[a-z|\d]{2}$/i
+  NUMBER_FORMAT = /^[a-z|\d]{3}-*[a-z|\d]{2}$/i.freeze
   @@all_trains = []
 
   def self.all #метод класса (возвращает все поезда)
-    @@all_trains
+    @all_trains
   end
   
   def self.find(number)
-    @@all_trains.detect { |train| train.number == number}
+    @all_trains.detect { |train| train.number == number}
   end
 
   # Имеет номер, тип, количество вагонов (указывается при создани)

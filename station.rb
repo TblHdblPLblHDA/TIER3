@@ -6,12 +6,12 @@ class Station
   include InstanceCounter
   attr_reader :name
 
-  TITLE_FORMAT = /[a-z]/i
-  @@all_station = []
+  TITLE_FORMAT = /[a-z]/i.freeze
+  @all_station = []
 
   # метод класса (возвращает все станции)
   def self.all
-    @@all_station
+    @all_station
   end
 
   # Имеет название, которое указывается при ее создании.

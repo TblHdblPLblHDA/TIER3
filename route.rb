@@ -6,11 +6,11 @@ class Route
   include InstanceCounter
   attr_reader :first, :last, :stations
 
-  @@all_route = []
+  @all_route = []
 
   # метод класса (возвращает все пути)
   def self.all 
-    @@all_route
+    @all_route
   end
 
   # Имеет начальную и конечную станцию. Начальная и конечная станции указываются при создании маршрута.
